@@ -1,7 +1,7 @@
 import { useState } from "react";
 const Input=(props)=>{
   const [title,setTitle]=useState("");
-  const [flag,setFlag]=useState(true);
+  const [flag,setFlag]=useState(false);
   const store=(event)=>{
     setTitle(event.target.value);
   }
