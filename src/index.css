@@ -11,4 +11,5 @@ button:active{
 }
 body{
   position:relative;
+  background:linear-gradient(40deg,#8263b8,#4d49c2);
 }

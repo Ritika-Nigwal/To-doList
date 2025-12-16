@@ -14,14 +14,14 @@ const Container=()=>{
   }
   return(
     <>
-    <ul className="bg-cyan-200 p-10 m-4 rounded-xl shadow-xl shadow-stone-300 ">
+    <ul className="bg-blue-200 p-10 m-4 rounded-xl shadow-xl shadow-stone-300 ">
     {
       users.map((obj)=>{
        return( <Show Name={obj.Name} Age={obj.Age} key={obj.id} remove={remove} id={obj.id}/>);
       })
     }
     </ul>
-     <div className=" bg-emerald-950 p-10 mt-15 text-white text-4xl rounded-xl ">
+     <div className=" bg-blue-200 p-10 mt-15 text-blue-950 text-4xl rounded-xl ">
     <Form takeUser={takeUser}/>
     </div>
     </>
