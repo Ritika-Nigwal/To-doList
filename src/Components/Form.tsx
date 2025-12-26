@@ -41,10 +41,10 @@ const Form=({takeUser})=>{
     }
     <form className="flex flex-col" onSubmit={submitForm}>
     <label htmlFor="Name">Name:</label>
-    <input type="text" id="Name"className="bg-blue-100 rounded p-4 m-4 shadow-2xl shadow-purple-300" onChange={nameStored} value={uName}></input>
+    <input type="text" id="Name"className="bg-blue-100 rounded p-2 m-2 shadow-2xl shadow-purple-300" onChange={nameStored} value={uName}></input>
    <label htmlFor="Age">Age:</label>
-    <input type="Number" id="Age"className="bg-blue-100 rounded p-4 m-4 shadow-2xl shadow-purple-300" onChange={ageStored} value={uAge}></input>
-    <button className="bg-blue-700 text-white w-1/4 mt-4 rounded-xl py-2">Add User</button>
+    <input type="Number" id="Age"className="bg-blue-100 rounded p-2 m-2 shadow-2xl shadow-purple-300" onChange={ageStored} value={uAge}></input>
+    <button className="bg-blue-700 text-2xl text-white w-1/4 mt-4 rounded-xl py-2">Add User</button>
     </form>
     </>
     );
